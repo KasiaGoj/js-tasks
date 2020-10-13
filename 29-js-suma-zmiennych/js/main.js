@@ -11,9 +11,9 @@ let firstNumber = 4085;
 let secondNumber = 198;
 
 
-function sumOfNumbers (firstNumber, secondNumber) {
-    let result = firstNumber + secondNumber;
+function sumOfNumbers (num1, num2) {
+    let result = num1 + num2;
     return result;
 }
 
-/* console.log(sumOfNumbers(firstNumber, secondNumber)) */
+console.log(sumOfNumbers(firstNumber, secondNumber)) 
