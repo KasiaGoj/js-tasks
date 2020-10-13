@@ -9,8 +9,8 @@ Funkcja ma dodać do paragrafu opis (dowolny tekst). */
 
 let x = document.getElementById("opis");
 
-let myButton = document.querySelector('button')
+let myButton = document.querySelector('button');
 
 myButton.onclick = function () {
-    x.textContent = 'dowolna treść'
+    x.textContent = 'dowolna treść';
 }
