@@ -8,8 +8,12 @@ let first = "Uwielbiam JavaScript";
 
 let second = "Jestem świetnym programistą";
 
-if (length.first > length.second) {
-    console.log(first);
-} else {
-    console.log(second);
+function choseLonger (string1, string2) {
+    if (string1.length > string2.length) {
+       return string1;
+    } else {
+       return string2;
+    }
 }
+
+console.log(choseLonger(first,second));
