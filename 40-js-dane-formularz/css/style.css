@@ -1,0 +1,26 @@
+/* Dodatkowo do projektu dołącz plik css, w którym nadaj dowolny wygląd Twojej stronie. */ 
+
+body {
+    background-color: mintcream;
+}
+
+button  {
+    background-color: teal;
+    color: white;
+}
+p   {
+    font-size: x-large;
+}
+#name {
+    color: midnightblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#surname {
+    color: maroon;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#phone {
+    font-style: italic;
+}

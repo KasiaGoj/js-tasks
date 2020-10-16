@@ -1,0 +1,57 @@
+<!-- W pliku html stwórz podstawową strukturę html5, a następnie stwórz folder "js" a w nim plik "main.js". W pliku html podepnij Twój skrypt.
+
+W html stwórz prosty formularz z następującymi polami:
+1. Imię
+2. Nazwisko
+3. Numer telefonu
+
+Poniżej formularza stwórz następującą strukturę:
+
+<button>Wyświetl dane</button>
+<div id="container">
+    <p>Dane:</p>
+    <p id="name"></p>
+    <p id="surname"></p>
+    <p id="phone"></p>
+</div>
+Twoim zadaniem jest stworzyć funkcję uruchamianą po kliknięciu buttona.
+
+Funkcja powinna pobierać dane z value inputa i wstawiać je do odpowiednich paragrafów.
+Należy użyć do tego metody JavaScript .value
+
+Przykład:
+
+var nazwa = document.getElementById("nazwa-id");
+console.log(nazwa.value);
+Dodatkowo do projektu dołącz plik css, w którym nadaj dowolny wygląd Twojej stronie. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <form action="/action_page.php">
+        <label for="fname">Imię</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Nazwisko</label><br>
+        <input type="text" id="lname" name="lname" ><br><br>
+        <label for="tel">Numer telefonu</label><br>
+        <input type="text" id="tel" name="tel" ><br><br>
+      </form> 
+
+    <button onclick="myFunction()">Wyświetl dane</button>
+    <div id="container">
+    <p>Dane:</p>
+    <p id="name"></p>
+    <p id="surname"></p>
+    <p id="phone"></p>
+</div>
+    <script src="js/main.js"></script>
+</body>
+</html>
